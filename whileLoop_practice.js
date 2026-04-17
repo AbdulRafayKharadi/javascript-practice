@@ -16,3 +16,12 @@
             number--;
         }
 }
+{
+    // 3. Print all even numbers from 1 to 20.
+    let evenNumber = 2;
+    while (evenNumber <= 20)
+        {
+            console.log(evenNumber); // 2 4 6 8 10 12 14 16 18 20
+            evenNumber += 2;
+        }
+}
