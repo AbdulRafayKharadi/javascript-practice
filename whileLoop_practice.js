@@ -65,5 +65,19 @@
             totalMultiples++;
             number += 5;
         }
-    console.log(`Total Numbers Divisible by 5 are: ${totalMultiples}`);
+    console.log(`Total Numbers Divisible by 5 are: ${totalMultiples}`); // 10
+}
+{
+    // 8. Print numbers from 1 to 20, but stop when number = 13.
+    let number = 1;
+    while(number <= 20)
+        {
+            if(number === 13)
+                {
+                    break;
+                }
+            console.log(`${number}`); // 1 2 3 4 5 6 7 8 9 10 11 12 13
+            number++;
+        }
+
 }
