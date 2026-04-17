@@ -25,3 +25,12 @@
             evenNumber += 2;
         }
 }
+{
+    // 4. Print all odd numbers from 1 to 15.
+    let oddNumber = 1;
+    while(oddNumber <= 15)
+        {
+            console.log(oddNumber); // 1 3 5 7 9 11 13 15
+            oddNumber += 2;
+        }
+}
