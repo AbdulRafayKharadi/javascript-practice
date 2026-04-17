@@ -81,3 +81,15 @@
         }
 
 }
+{
+    // 9. Print numbers from 1 to 10, but skip 5.
+    let number = 1;
+    while( number <= 10)
+        {
+            if(number !== 5)
+                {
+                    console.log(`number: ${number}`); // 1 2 3 4 6 7 8 9 10
+                }
+            number++;        
+        }
+}
