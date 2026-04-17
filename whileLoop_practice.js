@@ -45,3 +45,14 @@
         }
     console.log(sum); // 55
 }
+{
+    // 6. Print multiplication table of 5 (5 × 1 → 5 × 10).
+    let number = 1;
+    let multiple = 5;
+    while(number <= 10 )
+        {
+            console.log(`${5} * ${number} = ${multiple} `); // will print 5 * 1 = 5 till 5 * 10 = 50
+            number++;
+            multiple +=5;
+        }
+}
