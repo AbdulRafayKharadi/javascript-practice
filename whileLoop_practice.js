@@ -56,3 +56,14 @@
             multiple +=5;
         }
 }
+{
+    // 7. Count how many numbers between 1–50 are divisible by 5.
+    let number = 5;
+    let totalMultiples = 0;
+    while (number <= 50)
+        {
+            totalMultiples++;
+            number += 5;
+        }
+    console.log(`Total Numbers Divisible by 5 are: ${totalMultiples}`);
+}
