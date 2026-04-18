@@ -82,3 +82,18 @@
         }
     while(number < 20);
 }
+{
+    // 9. Print numbers 1-10 but skip 5 using continue.
+    let number = 1;
+    do 
+        {
+            if (number === 5) 
+                {
+                    number++;
+                    continue;
+                }
+            console.log(number); // 1 2 3 4 6 7 8 9 10
+            number++;
+        } 
+    while (number <= 10);
+}
