@@ -97,3 +97,18 @@
         } 
     while (number <= 10);
 }
+{
+    /* 10. Fix this bug: Why does it still run?
+        let i = 10; 
+        do 
+            { 
+        console.log(i); 
+            }
+        while (i < 5); */
+    let i = 10; 
+    do 
+        { 
+            console.log(i); // 10 do while loop performs the task first and then check the condition
+        }
+    while (i < 5);
+}
