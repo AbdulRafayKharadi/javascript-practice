@@ -18,3 +18,13 @@
     }
     while(isNaN(number));
 }
+{
+    // 3. Print numbers from 1 to 5, but ensure loop runs at least once even if starting value is 10.
+    let number = 10;
+    do
+        {
+            console.log(`${number}`); // 10
+            number++;
+        }
+    while(number <= 5);
+}
