@@ -60,3 +60,15 @@
         } 
     while (number <= 10);
 }
+{
+    // 7. Count numbers divisible by 3 between 1-30.
+    let number = 3;
+    let totalMultiples = 0;
+    do
+        {
+            totalMultiples ++;
+            number += 3;
+        }
+    while(number <= 30);
+    console.log(`Numbers that are Divisible by 3 between 1 to 30: ${totalMultiples}`); // Numbers that are Divisible by 3 between 1 to 30: 10
+}
