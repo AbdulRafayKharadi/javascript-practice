@@ -38,3 +38,15 @@
         }
     while(number >= 1);
 }
+{
+    // 5. Calculate sum from 1 to 10 using do...while.
+    let number = 1;
+    let sum = 0;
+    do
+        {
+            sum += number;
+            number++;
+        }
+    while(number <= 10);
+    console.log(`Sum of numbers from 1 to 10: ${sum}`); // Sum of numbers from 1 to 10: 55
+}
