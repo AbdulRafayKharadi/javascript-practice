@@ -72,3 +72,13 @@
     while(number <= 30);
     console.log(`Numbers that are Divisible by 3 between 1 to 30: ${totalMultiples}`); // Numbers that are Divisible by 3 between 1 to 30: 10
 }
+{
+    // 8. Print numbers starting from 15, but stop when number becomes 20 👉 (observe first execution carefully)
+    let number = 15;
+    do
+        {
+            console.log(`${number}`); // 15 16 17 18 19
+            number++;
+        }
+    while(number < 20);
+}
