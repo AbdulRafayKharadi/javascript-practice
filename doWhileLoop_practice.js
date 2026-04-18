@@ -50,3 +50,13 @@
     while(number <= 10);
     console.log(`Sum of numbers from 1 to 10: ${sum}`); // Sum of numbers from 1 to 10: 55
 }
+{
+     // 6. Print multiplication table of 7 using do...while.
+    let number = 1;
+    do 
+        {
+            console.log(`7 * ${number} = ${7 * number}`); // will print 7 * 1 = 7 till 7 * 10 = 70
+            number++;
+        } 
+    while (number <= 10);
+}
