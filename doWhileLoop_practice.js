@@ -28,3 +28,13 @@
         }
     while(number <= 5);
 }
+{
+    // 4. Print numbers from 10 to 1 using do...while.
+    let number = 10;
+    do
+        {
+            console.log(`${number}`); // 10 9 8 7 6 5 4 3 2 1
+            number--;
+        }
+    while(number >= 1);
+}
