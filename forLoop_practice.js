@@ -29,3 +29,10 @@
         }
     }
 }
+{
+    // 5. Print squares of numbers from 1 to 10.
+    for( let i = 1; i <= 10; i++)
+        {
+            console.log(`square of ${i} is: ${i*i}`); // 1 4 9 16 25 36 49 64 81 100
+        }
+}
