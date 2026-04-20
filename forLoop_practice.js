@@ -72,8 +72,25 @@
             {
                 console.log(i);
             } */
-    for(let i = 1; i <= 5; i++)
+    for( let i = 1; i <= 5; i++ )
         {
             console.log(i);
+        }
+}
+{
+    /* 10. Print pattern:
+        *
+        **
+        ***
+        ****
+        *****  */
+    for( let i = 1; i <= 5; i++ )
+        {
+            let row = "";
+            for(j = 1; j <= i; j++)
+                {
+                    row += "*";
+                }
+            console.log(row);
         }
 }
