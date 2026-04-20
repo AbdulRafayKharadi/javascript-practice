@@ -52,3 +52,17 @@
         }
     console.log(`Total numbers divisible by 7 between 1 to 100 are: ${number}`); // Total numbers divisible by 7 between 1 to 100 are: 14
 }
+{
+    // 8. Print numbers from 1 to 20, replace multiples of 3 with “Fizz”.
+    for( let i = 1; i <= 20; i++ )
+        {
+            if((i%3) === 0)
+                {
+                    console.log(`Fizz`);
+                }
+            else
+                {
+            console.log(`${i}`)
+                }
+        }
+}
