@@ -19,3 +19,13 @@
             console.log(`i ${i}`); // 50 49 48 47 46 45 44 43 42 41 40
         }
 }
+{
+    // 4. Print numbers between 1–30 divisible by both 2 and 3
+    for(let i = 1; i <= 30; i++)
+    {   
+        if(((i%2) === 0) && ((i%3) === 0))
+        {
+            console.log(i); // 6 12 18 24 30
+        }
+    }
+}
