@@ -43,3 +43,12 @@
             console.log(`cube of ${i} is: ${i*i*i}`); // 1 8 27 64 125
         }
 }
+{
+    // 7. Count numbers between 1–100 divisible by 7.
+    let number = 0;
+    for( let i = 7; i <= 100 ; i += 7 )
+        {
+            number++;
+        }
+    console.log(`Total numbers divisible by 7 between 1 to 100 are: ${number}`); // Total numbers divisible by 7 between 1 to 100 are: 14
+}
