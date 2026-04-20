@@ -62,7 +62,18 @@
                 }
             else
                 {
-            console.log(`${i}`)
+                    console.log(`${i}`)
                 }
+        }
+}
+{
+    /* 9. Fix the bug:
+        for(let i = 1; i <= 5; i–)
+            {
+                console.log(i);
+            } */
+    for(let i = 1; i <= 5; i++)
+        {
+            console.log(i);
         }
 }
