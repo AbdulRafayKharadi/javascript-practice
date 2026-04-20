@@ -36,3 +36,10 @@
             console.log(`square of ${i} is: ${i*i}`); // 1 4 9 16 25 36 49 64 81 100
         }
 }
+{
+    // 6. Print cubes of numbers from 1 to 5.
+    for( let i = 1; i <= 5; i++ )
+        {
+            console.log(`cube of ${i} is: ${i*i*i}`); // 1 8 27 64 125
+        }
+}
