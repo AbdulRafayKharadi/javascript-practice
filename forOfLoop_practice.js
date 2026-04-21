@@ -7,3 +7,12 @@ for( let val of arr)
         console.log(`value: ${val}`);
     }
 }
+{
+    /* 2. Print each character of a string:
+    let str = “hello”; */
+    let str = "hello";
+    for(let letter of str)
+        {
+            console.log(`alphabet: ${letter}`);
+        }
+}
