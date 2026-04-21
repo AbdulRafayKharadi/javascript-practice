@@ -16,3 +16,17 @@ for( let val of arr)
             console.log(`alphabet: ${letter}`);
         }
 }
+{
+    /* 3. Count how many elements in an array are greater than 50.
+        let arr = [10, 50, 32, 96, 53, 107]; */
+        let arr = [10, 50, 32, 96, 53, 107];
+        let count = 0;
+        for(let val of arr)
+            {
+                if(val > 50)
+                    {
+                        count++;
+                    }
+            }
+        console.log(`Values greater than 50 in the array are: ${count}`);
+}
