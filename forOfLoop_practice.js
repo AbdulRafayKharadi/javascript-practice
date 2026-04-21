@@ -30,3 +30,14 @@ for( let val of arr)
             }
         console.log(`Values greater than 50 in the array are: ${count}`);
 }
+{
+    /* 4. Find the sum of all numbers in an array using for…of.
+    let arr = [10, 50, 32, 96, 53, 107]; */
+    let arr = [10, 50, 32, 96, 53, 107];
+    let sum = 0;
+    for (const val of arr) 
+        {
+            sum += val;
+        }
+    console.log(`sum of all numbers of array is: ${sum}`);    
+}
