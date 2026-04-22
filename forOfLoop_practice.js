@@ -50,4 +50,15 @@ for( const val of arr)
             console.log(ch.toUpperCase());
         }
 }
+{
+    // 6. Print only strings from a mixed array: [1, “hi”, true, “JS”, 5]
+    let arr = [1, 'hi', true, 'JS', 5];
+    for (const str of arr) 
+        {
+            if(typeof str === "string")
+            {
+                console.log(str);
+            }
+        }
+}
 
