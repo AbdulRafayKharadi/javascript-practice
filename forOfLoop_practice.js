@@ -75,3 +75,16 @@ for( const val of arr)
         }
     console.log(`Vowels in a word ${str} are: ${count}`);    
 }
+{
+    /* 8. Print all values of an array except null and undefined.
+    let arr = [10, 50, 32, undefined, 53, 107, ,20, null]; */
+    let arr = [10, 50,"X", 32, undefined,"a", 53, 107, ,20, null];
+    for (const val of arr) 
+        {
+            if (val != null)
+                {
+                    console.log(`element: ${val}`);
+                }
+        }
+}
+
