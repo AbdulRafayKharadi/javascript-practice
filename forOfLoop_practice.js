@@ -61,4 +61,17 @@ for( const val of arr)
             }
         }
 }
-
+{
+    /* 7. Count how many vowels are in a string.
+    let str = "javascript"; */
+    let str = "javascript";
+    let count = 0;
+    for (const ch of str) 
+        {
+            if(ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u")
+                {
+                    count++;
+                }
+        }
+    console.log(`Vowels in a word ${str} are: ${count}`);    
+}
