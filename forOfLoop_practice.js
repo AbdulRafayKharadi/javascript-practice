@@ -100,4 +100,15 @@ for( const val of arr)
             console.log(val);
         }
 }
+{
+    /* 10. Create a new array that contains double values of original array using for…of.
+    let arr = [10, 50, 32, 96, 53, 107]; */
+    let arr = [10, 50, 32, 96, 53, 107];
+    let arr2 = [];
+    for(const val of arr)
+        {
+            arr2.push (val*2);
+        }
+    console.log(arr2);
+}
 
