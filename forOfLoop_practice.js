@@ -1,8 +1,8 @@
 {
-    // 1.Print each value using for…of. 
-    // Given: arr = [10, 20, 30];
+    /* 1.Print each value using for…of. 
+    Given: arr = [10, 20, 30]; */
     let arr = [10, 20, 30];
-for( let val of arr)
+for( const val of arr)
     {
         console.log(`value: ${val}`);
     }
@@ -11,7 +11,7 @@ for( let val of arr)
     /* 2. Print each character of a string:
     let str = “hello”; */
     let str = "hello";
-    for(let letter of str)
+    for(const letter of str)
         {
             console.log(`alphabet: ${letter}`);
         }
@@ -21,7 +21,7 @@ for( let val of arr)
         let arr = [10, 50, 32, 96, 53, 107]; */
         let arr = [10, 50, 32, 96, 53, 107];
         let count = 0;
-        for(let val of arr)
+        for(const val of arr)
             {
                 if(val > 50)
                     {
@@ -41,3 +41,13 @@ for( let val of arr)
         }
     console.log(`sum of all numbers of array is: ${sum}`);    
 }
+{
+    /* 5. Convert all elements of an array to uppercase and print them.
+    let arr = [a, b, c, d, e]; */
+    let arr = ["a", "b", "c", "d", "e"];
+    for (const ch of arr) 
+        {
+            console.log(ch.toUpperCase());
+        }
+}
+
