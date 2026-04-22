@@ -87,4 +87,17 @@ for( const val of arr)
                 }
         }
 }
+{
+    /* 9. (Debug) 👉 Fix the logic
+    let arr = [1, 2, 3];
+    for (let i of arr)
+        {
+            console.log(arr[i]);
+        } */
+    let arr = [1, 2, 3];
+    for (const val of arr)
+        {
+            console.log(val);
+        }
+}
 
